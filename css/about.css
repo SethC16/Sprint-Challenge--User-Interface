@@ -31,11 +31,11 @@ footer, header, hgroup, menu, nav, section {
     * {
         box-sizing: border-box;
     }
-    h1, h2, h3, h4, h5 {
+     h1, h2, h3, h4, h5 {
         font-size: 18px;
-        margin-bottom: 15px;
+        
         font-family: 'Rubik', sans-serif;
-    }
+    } 
     p {
         line-height: 1.4;
     }
@@ -45,7 +45,6 @@ footer, header, hgroup, menu, nav, section {
     }
     body {
         line-height: 1;
-        height: 100%;
     }
     nav {
         display: flex;
@@ -57,8 +56,7 @@ footer, header, hgroup, menu, nav, section {
         text-decoration: none;
         color: black;
     }
-    .lambdablck {
-        width: 110%;
+    .lambdablack {
     }
     .jumboabout {
         margin-top:20px;
@@ -72,31 +70,43 @@ footer, header, hgroup, menu, nav, section {
 		padding-bottom: 40px;
 		border-bottom: 2px dotted black;
     }
-    .boxes {
-        border-bottom: 2px dotted black;
-        width: 45%;
-        padding: 2%;
-         margin: 5% 0; 
-    }
+
+     .img {
+        width:100%; 
+        margin-bottom: 1%;
+    } 
     .information {
         display: flex;
         flex-wrap: wrap;
-        /* justify-content: space-between; */
-        justify-content: space-around;   
+        justify-content: space-between;
+        
     }
-    .img {
-        left:5%;
+    .boxes {
+        display:flex;
+        border-bottom: 1px dotted black;
+        flex-direction:column;
+         width:48%;
+         
+        margin:20px 0;
+        align-items: flex-start;
+        padding-bottom: 2%;
+        
+    }
+    .boxes h1 {
+        margin-bottom: 3%;
+    }
+    .boxes a {
+        margin-top: 10%;
     }
     .button {
         text-decoration: none;
         border: 1px solid black;
         width:40%;
-        margin: 0 auto;
         padding: 5px;
         font-size: 1.1rem;
         color:rgb(8, 112, 197);
         border-radius: 5px;
-        /* background-color: rgb(108, 177, 233); */
+        
     }
     .button:hover {
         background-color: #DE985C;
