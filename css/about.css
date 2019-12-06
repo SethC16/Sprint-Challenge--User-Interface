@@ -99,7 +99,7 @@ footer, header, hgroup, menu, nav, section {
         /* background-color: rgb(108, 177, 233); */
     }
     .button:hover {
-        background-color: rgb(108, 177, 233);
+        background-color: #DE985C;
         color: white;
         transition: .6s;
         border: 3px solid rgb(120, 95, 235);
