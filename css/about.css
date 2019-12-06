@@ -40,17 +40,18 @@ footer, header, hgroup, menu, nav, section {
         line-height: 1.4;
     }
     .container {
-        width: 800px;
-        margin: 0 auto;
+        width: 90%;
+        margin: 40px auto 0 auto;
     }
     body {
         line-height: 1;
+        height: 100%;
     }
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 3%;
+        
       }
       nav a {
         text-decoration: none;
@@ -60,21 +61,22 @@ footer, header, hgroup, menu, nav, section {
         width: 110%;
     }
     .jumboabout {
-        padding-top: 3%;
-        padding-bottom: 3%;
+        margin-top:20px;
+        width: 100%;
 
     }
     .about {
-        margin-left: 2%;
-        margin-right: 2%;
-        border-bottom: 2px dotted black;
-        padding-bottom: 3%;
+		word-spacing: 2px;
+		margin-bottom: 40px;
+		padding-top: 40px; 
+		padding-bottom: 40px;
+		border-bottom: 2px dotted black;
     }
     .boxes {
         border-bottom: 2px dotted black;
         width: 45%;
         padding: 2%;
-        margin: 5% 0;
+         margin: 5% 0; 
     }
     .information {
         display: flex;
@@ -85,6 +87,23 @@ footer, header, hgroup, menu, nav, section {
     .img {
         left:5%;
     }
+    .button {
+        text-decoration: none;
+        border: 1px solid black;
+        width:40%;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 1.1rem;
+        color:rgb(8, 112, 197);
+        border-radius: 5px;
+        /* background-color: rgb(108, 177, 233); */
+    }
+    .button:hover {
+        background-color: rgb(108, 177, 233);
+        color: white;
+        transition: .6s;
+        border: 3px solid rgb(120, 95, 235);
+     }
     .together {
         padding:5%;
     }
